@@ -1,4 +1,4 @@
-# 🐳 Docker Labs — from a single container to a multi-service stack
+# 🐳 Docker Labs - from a single container to a multi-service stack
 
 A progressive, hands-on journey through **Docker** and **Docker Compose**, building up step by step (`etape1` → `etape4`) from a single web server to a full **NGINX + PHP-FPM + MySQL** stack running a WordPress-style application.
 
@@ -40,7 +40,7 @@ docker compose up -d
 # open http://localhost:8080
 ```
 
-> The application source (`app/`) is git-ignored — drop in WordPress or any PHP app and Compose mounts it into the PHP-FPM and NGINX containers. Database credentials come from `.env`, never hard-coded.
+> The application source (`app/`) is git-ignored - drop in WordPress or any PHP app and Compose mounts it into the PHP-FPM and NGINX containers. Database credentials come from `.env`, never hard-coded.
 
 ---
 
